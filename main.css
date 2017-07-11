@@ -8,12 +8,14 @@
 }
 
 #s4-workspace header {
-  background: #dcb833; }
+  background: #dcb833;
+}
 
 .pm-main-nav-wrap {
   background: #dcb833;
   border-bottom: none;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 #DeltaTopNavigation.ms-core-navigation .ms-core-listMenu-horizontalBox UL.ms-core-listMenu-root > LI.static > A.ms-core-listMenu-item {
   color: #003466;
