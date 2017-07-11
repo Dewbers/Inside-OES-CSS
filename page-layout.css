@@ -55,7 +55,42 @@
 }
 
 
+/* Home Page Tabs */
+
+.ms-rtestate-field .pm-homeTabs div.button {
+  width: 50%;
+}
+
+
+/* TEMP for Site Logo */
+
+.ms-siteicon-img {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.ms-siteicon-a {
+  display: inline-block;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+HEADER .pm-logo IMG, HEADER .secondary-logo IMG {
+  width: auto;
+}
+
+HEADER .secondary-logo {
+  vertical-align: top;
+}
+
+
 /* Main Navigation */
+
+.documentTypeDescription {
+  font-size: 18px;
+  color: #006599;
+}
 
 #DeltaTopNavigation .selected {
   font-weight: bold;
@@ -224,7 +259,9 @@ h2.ms-webpart-titleText {
   bottom: -10px;
 }
 
+
 /* used for boostrap columns odd numbering and with horizontal javascript solution webPartZoneHorizontal */
+
 
 /* 5 Columns Evenly Spaced */
 
@@ -285,6 +322,7 @@ h2.ms-webpart-titleText {
   float: left;
 }
 
+
 /* 10 Columns Evenly Spaced */
 
 .col-xs-30, .col-sm-30, .col-md-30, .col-lg-30 {
@@ -298,6 +336,7 @@ h2.ms-webpart-titleText {
   width: 10%;
   float: left;
 }
+
 
 /* 11 Columns Evenly Spaced */
 
@@ -313,9 +352,83 @@ h2.ms-webpart-titleText {
   float: left;
 }
 
+
 /*  Footer */
 
 footer {
   background: #7f9ead;
   border-top: none;
+}
+
+
+/* Group Expand Collapse */
+
+.pm-item-group .pm-item-header, .pm-item-group .pm-item-body {
+  border: solid 1px #eef3f7;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.pm-item-group .pm-item-header {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #003466;
+  background: #fcfdfd none;
+  cursor: pointer;
+  padding: 10px 30px 10px 40px;
+  margin-top: 10px;
+}
+
+.pm-item-group .pm-item-header:first-child {
+  margin-top: 0;
+}
+
+.pm-item-group .pm-item-header SPAN {
+  background-image: url("../images/sprite-client.png");
+  background-position: 0 -1048px;
+  background-color: #fcfdfd;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  bottom: auto;
+  left: auto;
+  float: right;
+  width: 11px;
+  height: 11px;
+  cursor: pointer;
+}
+
+.pm-item-group .pm-item-header SPAN.open {
+  background-image: url("../images/sprite-client.png");
+  background-position: 0 -1018px;
+  background-color: #fcfdfd;
+  background-repeat: no-repeat;
+}
+
+.pm-item-group .pm-item-header:before {
+  background-image: url("../images/sprite-client.png");
+  background-position: 0px -976px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  content: ' ';
+  display: block;
+  height: 15px;
+  left: 13px;
+  position: absolute;
+  top: 12px;
+  width: 20px;
+}
+
+.pm-item-group .pm-item-body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  color: black;
+  border-top: none;
+  background-color: #fcfdfd;
+  line-height: 1.5;
+  padding: 15px;
 }

@@ -17,3 +17,35 @@
 #promotedlinksheader_WPQ5.ms-promlink-header {
   display: none;
 }
+
+
+/* This element holds injected scripts inside iframes that in some cases may stretch layouts. So, we're just hiding it. */
+
+#fb-root {
+  display: none;
+}
+
+.ms-rte-embedcode .fb-like-box {
+  display: block;
+  padding: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* To fill the container and nothing else */
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+}
+
+
+/* Web Part Title Chrome */
+
+#s4-bodyContainer .main-content.pm-system-master .container ARTICLE .ms-breadcrumb-box, .pm-public-master .main-content .ms-webpart-chrome .ms-webpart-chrome-title H2.ms-webpart-titleText {
+  height: 32px;
+  line-height: 32px;
+  margin: 0 auto;
+  /* margin: 15px auto 0; */
+  padding-left: 0;
+}

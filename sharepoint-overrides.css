@@ -1,0 +1,47 @@
+/* SharePoint UI overrides */
+
+
+/* Make Edit Mode Panel full width */
+
+.edit-mode-panel {
+  display: block !important;
+}
+
+
+/* Horizontal Web Part Adjustment */
+
+.ms-fullWidth.row {
+  width: auto;
+}
+
+.ms-webpart-cell-horizontal {
+  display: block;
+}
+
+.pm-edit-mode .ms-webpart-cell-horizontal {
+  display: table-cell;
+}
+
+#DeltaBreadcrumbDropdown {
+  display: none;
+}
+
+
+/* Page Edit Mode */
+
+TEXTAREA {
+  resize: vertical;
+  width: 99%;
+}
+
+
+/* Item Toggle */
+
+.pm-item-header {
+  cursor: pointer;
+}
+
+.eventContent p {
+  cursor: pointer;
+  text-decoration: underline;
+}
