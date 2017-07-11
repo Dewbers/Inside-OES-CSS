@@ -1,0 +1,156 @@
+/* masonry shenanigans */
+
+.blog-container-m {
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	column-count: 3;
+	width: 100%;
+	-moz-column-rule: 1px solid #eee;
+    -webkit-column-rule: 1px solid #eee;
+    column-rule: 1px solid #eee;
+    -moz-column-gap: 70px;
+    -webkit-column-gap: 70px;
+    column-gap: 50px;
+}
+
+.blog-item-m {
+    display: inline-block;
+    padding: 1em;
+    margin: 0 0 1.5em;
+    width: 100%;
+    margin-left: -12px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #eee;
+}
+
+.h4m {
+	font-weight: 100;
+	font-size: 24px;
+}
+
+/* 3col Masonry Styles */
+
+.content-page {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.ms-rtestate-field IMG {
+    padding: 0px;
+    border: solid 0px transparent;
+}
+
+/* Disable MS Lync and User Profile Image in blog comments */
+
+.ms-spimn-presenceLink {
+  display: inline-block;
+  padding: 1px 0px 1px 0px;
+  display: none;
+}
+.ms-peopleux-userImgWrapper {
+  display: inline-block;
+  padding: 0px;
+  width: 0px !important;
+  height: 0px !important;
+}
+
+/* Blog styles */
+
+.ms-blog-postBody {
+	width: 620px;
+}
+
+.ms-blog-postBody img {
+	max-width: 100%;
+	height: auto;
+}
+
+.ms-blog-postInlineMargin h2 {
+    font-family: "Source Sans Pro",sans-serif;
+    color: #0072c6;
+    font-size: 28px;
+    line-height: normal;
+}
+
+.pm-edit-mode .sidebarWrapper {
+    display: block;
+}
+
+.ms-blog-listMenu-root {
+    width: 230px;
+}
+
+.static.ms-blog-listMenu-root.ms-core-listMenu-root.root {
+    padding: 5px;
+}
+
+.blog-container {
+	padding-bottom: 16px;
+	border-bottom: 1px solid #E7DB80 !important;
+	padding-top: 10px;
+	}
+
+.root.ms-core-listMenu-root.static {
+    padding: 5px;
+}
+
+.blog-container-image {
+	float: left;
+	width: 89px;
+	margin-right: 16px;
+}
+
+.blog-container-post-image {
+    bottom: -16px;
+    position: relative;
+}
+
+.blog-container-post-image img {
+	width: 100%;
+}
+
+.blog-container-content {
+    padding-top: 4px;
+    margin-left: 16px;
+
+}
+
+.cbs-List A {
+    font-family: "Source Sans Pro",sans-serif;
+    color: #0072c6;
+    font-size: 15px;
+}
+
+h2.blog-title {
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #0072c6;
+}
+
+.blog-image-link {
+	font-size: 0px;
+}
+
+.blog-rollup a {
+	font-size: 11px;
+}
+
+/* Blog Recent Comments */
+
+.groupPostTitle {
+	padding-bottom: 4px;
+	border-top: 1px solid #dcb833;
+}
+
+.commentTitle {
+	padding-bottom: 2px;
+}
+
+.commentAuthor {
+	font-style: italic;
+	font-size: .8em;
+	padding-bottom: 6px;
+}

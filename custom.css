@@ -1,0 +1,539 @@
+.documentTypeDescription {
+  font-size: 18px;
+  color: #006599;
+}
+
+
+/* mix it up */
+
+.mixitupControls {
+  padding: 2%;
+  background: #333;
+  color: #eee;
+}
+
+label {
+  font-weight: 300;
+  margin: 0 .4em 0 0;
+}
+
+button.filter {
+  background: none repeat scroll 0 0 #666 !important;
+  border: 0 none !important;
+  border-radius: 4px;
+  color: #ddd !important;
+  cursor: pointer !important;
+  display: inline-block;
+  font-size: 16px !important;
+  font-weight: 300;
+  max-width: 150px !important;
+  padding: 0.4em 0.8em !important;
+}
+
+button.filter.active {
+  background: #68b8c4;
+}
+
+button.filter:focus {
+  outline: 0 none;
+}
+
+button+label {
+  margin-left: 1em;
+}
+
+.mixitupContent {
+  background: #03899c;
+  position: relative;
+  min-height: 580px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.mixitupContent .mix {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+  text-align: right;
+  background: rgba(255, 255, 255, 0.4);
+  margin-bottom: 4%;
+  display: none;
+  font-size: 25px;
+  padding-right: .5em;
+  line-height: 1.8em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  vertical-align: top;
+  -webkit-backface-visibility: hidden;
+  height: 425px;
+}
+
+.mixitupContent .mix:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mixitupContent .mix:after {
+  content: '';
+  position: absolute;
+  border: 20px solid transparent;
+  border-right-color: white;
+  top: -20px;
+  left: -20px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.mixitupContent .mix.category-1:after {
+  border-right-color: #6bd2e8;
+}
+
+.mixitupContent .mix.category-2:after {
+  border-right-color: #a6e6a7;
+}
+
+.mixitupContent .gap, .mixitupContent .mix {
+  width: 48%;
+}
+
+/* Make Edit Mode Panel full width */
+
+.edit-mode-panel {
+  display: block !important;
+}
+
+
+/* Item Toggle */
+
+.pm-item-header {
+  cursor: pointer;
+}
+
+.eventContent p {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+/* Page Edit Mode */
+
+TEXTAREA {
+  resize: vertical;
+  width: 99%;
+}
+
+
+/* Dialog Boxes */
+
+.ms-dialog .dialog-box-12 {
+  width: 100% !important;
+}
+
+
+/* Group Expand Collapse */
+
+.pm-item-group .pm-item-header, .pm-item-group .pm-item-body {
+  border: solid 1px #eef3f7;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.pm-item-group .pm-item-header {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #003466;
+  background: #fcfdfd none;
+  cursor: pointer;
+  padding: 10px 30px 10px 40px;
+  margin-top: 10px;
+}
+
+.pm-item-group .pm-item-header:first-child {
+  margin-top: 0;
+}
+
+.pm-item-group .pm-item-header SPAN {
+  background-image: url("../images/sprite-client.png");
+  background-position: 0 -1048px;
+  background-color: #fcfdfd;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  bottom: auto;
+  left: auto;
+  float: right;
+  width: 11px;
+  height: 11px;
+  cursor: pointer;
+}
+
+.pm-item-group .pm-item-header SPAN.open {
+  background-image: url("../images/sprite-client.png");
+  background-position: 0 -1018px;
+  background-color: #fcfdfd;
+  background-repeat: no-repeat;
+}
+
+.pm-item-group .pm-item-header:before {
+  background-image: url("../images/sprite-client.png");
+  background-position: 0px -976px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  content: ' ';
+  display: block;
+  height: 15px;
+  left: 13px;
+  position: absolute;
+  top: 12px;
+  width: 20px;
+}
+
+.pm-item-group .pm-item-body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  color: black;
+  border-top: none;
+  background-color: #fcfdfd;
+  line-height: 1.5;
+  padding: 15px;
+}
+
+/* This element holds injected scripts inside iframes that in some cases may stretch layouts. So, we're just hiding it. */
+
+#fb-root {
+  display: none;
+}
+
+.ms-rte-embedcode .fb-like-box {
+  display: block;
+  padding: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* To fill the container and nothing else */
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+}
+
+
+/* Home Page Tabs */
+
+.ms-rtestate-field .pm-homeTabs div.button {
+  width: 50%;
+}
+
+
+/* Web Part Title Chrome */
+
+#s4-bodyContainer .main-content.pm-system-master .container ARTICLE .ms-breadcrumb-box, .pm-public-master .main-content .ms-webpart-chrome .ms-webpart-chrome-title H2.ms-webpart-titleText {
+  height: 32px;
+  line-height: 32px;
+  margin: 0 auto;
+  /* margin: 15px auto 0; */
+  padding-left: 0;
+}
+
+
+/* Banner Containers
+.homePageBannerContainer, .globalBannerContainer {
+	float: left;
+}
+
+*/
+
+.homePageBannerContainer {
+  display: inline-block;
+}
+
+/* Google Maps */
+
+.mapLocationTitle, .mapLocationAddressOne, .mapLocationAddressTwo {
+  white-space: nowrap;
+}
+
+#map-canvas {
+  height: 330px;
+}
+
+
+/* TEMP for Site Logo */
+
+.ms-siteicon-img {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.ms-siteicon-a {
+  display: inline-block;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+HEADER .pm-logo IMG, HEADER .secondary-logo IMG {
+  width: auto;
+}
+
+HEADER .secondary-logo {
+  vertical-align: top;
+}
+
+
+
+/* general hide class */
+
+.hideItem {
+  display: none;
+}
+
+/* center text and image */
+
+.text-center {
+  text-align: center;
+}
+
+.text-center img {
+  display: inline;
+}
+
+.text-left {
+  text-align: left;
+}
+
+
+/* all caps */
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+
+/* location page */
+
+div.article, div.welcome {
+  padding: 10px 0;
+}
+
+
+/* press release header */
+
+.press-release-header {
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* Used for the refiners to make them full width */
+
+.ms-ref-refiner #Value, .ms-ref-unsel-toggle, #OtherValue, #SubmitValue {
+  display: block;
+  padding: 4px 0;
+  width: auto;
+}
+
+.divContainer {
+  display: block;
+  /* padding-left: 20px; */
+}
+
+.divRow {
+  display: block;
+}
+
+.divCell {
+  display: block;
+  padding: 4px 10px;
+}
+
+.divCell p {
+  margin: 4px;
+}
+
+.main-content .ms-webpart-chrome {
+  border: 0px solid #b9b9b9 !important;
+  background-color: transparent;
+}
+
+.locationHours {
+  display: inline-block;
+  width: 120px;
+}
+
+.locationHoursName {
+  display: inline-block;
+  width: 80px;
+}
+
+.rowFirst, .rowFirstEdit {
+  background-color: #D8D8D8;
+  /* border-radius: 4px; */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  position: relative;
+  z-index: inherit;
+}
+
+.rowEven {
+  background-color: #f5f5f5;
+  /* border-radius: 4px; */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  position: relative;
+}
+
+.rowOdd {
+  background-color: #ffffff;
+  /* border-radius: 4px; */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+}
+
+.rowEvenEdit {
+  background-color: #E6E6E6;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+}
+
+.rowBand {
+  padding: 4px 20px;
+}
+
+
+/* Horizontal Web Part Adjustment */
+
+.ms-fullWidth.row {
+  width: auto;
+}
+
+.ms-webpart-cell-horizontal {
+  display: block;
+}
+
+.pm-edit-mode .ms-webpart-cell-horizontal {
+  display: table-cell;
+}
+
+#DeltaBreadcrumbDropdown {
+  display: none;
+}
+
+/* events */
+
+.kf-styleLessList UL.cbs-List, #s4-bodyContainer .main-content .pm-column-sidebar .webPartZoneIII .ms-webpartzone-cell UL.cbs-List, #s4-bodyContainer .main-content .pm-column-sidebar .webPartZoneIIII .ms-webpartzone-cell UL.cbs-List, .kf-webpart-list UL.cbs-List {
+  display: block;
+  list-style: outside none none;
+}
+
+.kf-styleLessList UL.cbs-List LI, #s4-bodyContainer .main-content .pm-column-sidebar .webPartZoneIII .ms-webpartzone-cell UL.cbs-List LI, #s4-bodyContainer .main-content .pm-column-sidebar .webPartZoneIIII .ms-webpartzone-cell UL.cbs-List LI, .kf-webpart-list UL.cbs-List LI {
+  display: inline-block;
+}
+
+.kf-list-vertical UL.cbs-List LI, #s4-bodyContainer .main-content .pm-column-sidebar .webPartZoneIII .ms-webpartzone-cell UL.cbs-List LI, #s4-bodyContainer .main-content .pm-column-sidebar .webPartZoneIIII .ms-webpartzone-cell UL.cbs-List LI, .kf-webpart-list UL.cbs-List LI {
+  display: block;
+}
+
+.kf-webpart-list {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.kf-webpart-list UL.cbs-List LI:first-child {
+  padding: 0;
+}
+
+.kf-webpart-list UL.cbs-List LI {
+  background: none repeat scroll 0 0 #f1eee1;
+}
+
+.kf-webpart-list UL.cbs-List LI H1, .kf-webpart-list UL.cbs-List LI H2, .kf-webpart-list UL.cbs-List LI H3, .kf-webpart-list UL.cbs-List LI H4, .kf-webpart-list UL.cbs-List LI H5 {
+  margin: 0;
+}
+
+.kf-webpart-list UL.cbs-List LI a, .kf-webpart-list UL.cbs-List LI a:link, .kf-webpart-list UL.cbs-List LI a:visited, .kf-webpart-list UL.cbs-List LI a:active {
+  color: black;
+}
+
+.kf-webpart-list UL.cbs-List LI .moreEventsLink a, .kf-webpart-list UL.cbs-List LI .moreEventsLink a:link, .kf-webpart-list UL.cbs-List LI .moreEventsLink a:active, .kf-webpart-list UL.cbs-List LI .moreEventsLink a:visited, .kf-webpart-list UL.cbs-List LI .moreEventsLink a:hover, .kf-webpart-list UL.cbs-List LI .moreNewsLink a, .kf-webpart-list UL.cbs-List LI .moreNewsLink a:link, .kf-webpart-list UL.cbs-List LI .moreNewsLink a:active, .kf-webpart-list UL.cbs-List LI .moreNewsLink a:visited, .kf-webpart-list UL.cbs-List LI .moreNewsLink a:hover {
+  color: #ecdfa7;
+  font-weight: 700;
+}
+
+.pm-event-date, UL.cbs-List LI .eventHomeContainer .eventHomeDay {
+  display: inline-block;
+  font-size: 48px;
+  padding-left: 16px;
+  width: 58px;
+}
+
+.pm-event-month, UL.cbs-List LI .eventHomeContainer .eventHomeMonth {
+  display: inline-block;
+  font-size: 16px;
+  left: 0;
+  padding-top: 40px;
+  position: absolute;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+}
+
+.pm-event-description, UL.cbs-List LI .eventHomeContainer .eventHomeTitle {
+  display: inline-block;
+  float: none;
+  font-size: 16px;
+  height: 42px;
+  max-width: 69%;
+  overflow: hidden;
+  padding-top: 8px;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  width: auto;
+}
+
+UL.cbs-List LI {
+  background-color: white;
+}
+
+UL.cbs-List LI .eventHomeContainer {
+  background-color: #9a789e;
+  color: white;
+  border-bottom: 1px dashed white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+UL.cbs-List LI .eventHomeContainer .eventHomeTitle a, UL.cbs-List LI .eventHomeContainer .eventHomeTitle a:active, UL.cbs-List LI .eventHomeContainer .eventHomeTitle a:visited, UL.cbs-List LI .eventHomeContainer .eventHomeTitle a:hover, UL.cbs-List LI .eventHomeContainer .eventHomeTitle a:link {
+  color: black;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+UL.cbs-List LI .moreNewsLink, UL.cbs-List LI .moreEventsLink {
+  display: block;
+  margin: 0;
+}
+
+UL.cbs-List LI:last-child .eventHomeContainer {
+  border-bottom: 0 none;
+}
+
+.pm-column-article.col-sm-12 UL.cbs-List LI .moreEventsLink {
+  display: inline-block;
+  margin: 0;
+  width: 97.6%;
+}
+
+.news-left-wrapper {
+  margin-bottom: 15px
+}
+
+.news-image {
+  max-width: 128px;
+}

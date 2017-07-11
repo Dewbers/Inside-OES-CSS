@@ -1,0 +1,19 @@
+/* padding overriede for full-width page templates */
+
+#s4-workspace .main-content {
+  padding: 0 15px;
+}
+
+
+/* Employee Services breakpoint fix */
+
+.ms-promlink-body {
+  max-width: 400px;
+}
+
+
+/* Hides pagination on Employee Services */
+
+#promotedlinksheader_WPQ5.ms-promlink-header {
+  display: none;
+}

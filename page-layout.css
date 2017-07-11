@@ -1,0 +1,321 @@
+/* Header */
+
+.oes-site-id a {
+  color: #003466;
+}
+
+.oes-site-id a:hover {
+  text-decoration: none;
+}
+
+#s4-workspace header {
+  background: #dcb833;
+}
+
+.pm-main-nav-wrap {
+  background: #dcb833;
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+
+#DeltaTopNavigation.ms-core-navigation .ms-core-listMenu-horizontalBox UL.ms-core-listMenu-root>LI.static>A.ms-core-listMenu-item {
+  color: #003466;
+}
+
+.oes-top-nav a {
+  color: #003466;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.oes-top-nav a:hover {
+  color: #003466;
+  text-decoration: none;
+}
+
+.oes-top-nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.oes-top-nav li {
+  display: inline-block;
+  padding: 20px 20px 0;
+}
+
+.oes-site-id {
+  color: #003466;
+  font-size: 5em;
+  padding-top: 25px;
+  vertical-align: middle;
+}
+
+.ms-displayInline.ms-core-navigation.ms-dialogHidden {
+  text-align: center;
+}
+
+
+/* Main Navigation */
+
+#DeltaTopNavigation .selected {
+  font-weight: bold;
+}
+
+.sidebarWrapper .pm-fixed-sidebar #sideNavBox {
+  background-color: transparent;
+}
+
+
+/* Top Navigation */
+
+#currentNavManagedNav {
+  display: none;
+}
+
+#DeltaTopNavigation.ms-core-navigation .ms-core-listMenu-horizontalBox UL.ms-core-listMenu-root UL.dynamic LI.dynamic>A, #DeltaTopNavigation.ms-core-navigation .ms-core-listMenu-horizontalBox UL.ms-core-listMenu-root>LI.static>A.ms-core-listMenu-selected, #DeltaTopNavigation.ms-core-navigation .ms-core-listMenu-horizontalBox UL.ms-core-listMenu-root>LI.static>A.ms-core-listMenu-item, #DeltaTopNavigation.ms-core-navigation .ms-core-listMenu-horizontalBox UL.ms-core-listMenu-root>LI.static>UL.static>LI.static>a.menu-item {
+  padding: 0 20px !important;
+}
+
+
+/* Search Box */
+
+.ms-mpSearchBox {
+  background-color: #fff !important;
+}
+
+#SearchBox DIV[class^="ms-srch-sb"] {
+  background-color: #fff;
+  box-sizing: border-box;
+  display: block;
+  padding: 7px;
+}
+
+.ms-srch-sbLarge {
+  z-index: 500;
+}
+
+
+/* Sidebar */
+
+.sidebarWrapper .pm-fixed-sidebar {
+  box-sizing: border-box;
+  height: 100%;
+  position: absolute !important;
+  right: 0;
+  top: 10px;
+  width: 25%;
+}
+
+.sidebarWrapper .pm-fixed-sidebar #sideNavBox {
+  border: none;
+}
+
+.sidebarWrapper .pm-fixed-sidebar #sideNavBox UL.ms-core-listMenu-root>LI {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+}
+
+.sidebarWrapper .pm-fixed-sidebar #sideNavBox #leftNavParentNodes>div:first-child {
+  background-color: #e0edf6;
+  color: #c38a6d;
+  display: block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sidebarWrapper .pm-fixed-sidebar #sideNavBox #leftNavParentNodes>div:first-child>A {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sidebarWrapper .pm-fixed-sidebar #sideNavBox UL.ms-core-listMenu-root>LI.selected>A {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.sidebarWrapper .pm-fixed-sidebar #sideNavBox UL.ms-core-listMenu-root>LI.selected>A:hover {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.sidebarWrapper .pm-fixed-sidebar #sideNavBox UL.ms-core-listMenu-root>LI.selected>A {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.sidebarWrapper .pm-fixed-sidebar #sideNavBox #leftNavParentNodes>div:first-child {
+  background-color: #c38a6d;
+  color: #fff;
+  display: block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sidebarWrapper .pm-fixed-sidebar #sideNavBox .childLevel1 UL.ms-core-listMenu-root>LI.selected>A {
+  background-color: #c38a6d;
+  margin-left: -15px;
+  padding-left: 30px;
+}
+
+.sidebarWrapper .pm-fixed-sidebar #sideNavBox UL.ms-core-listMenu-root>LI.selected>A {
+  background-color: #c38a6d;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.col-three .pm-fixed-sidebar .ms-core-navigation {
+  background-color: #c38a6d;
+}
+
+
+/* Page styles */
+
+h2.ms-webpart-titleText {
+  padding: 20px 0 10px !important;
+}
+
+.pxml-stylesElement-H5, .ms-rtestate-field h5, h5.ms-rteElement-H5 {
+  color: #006599;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.row-group {
+  padding: 15px 0;
+}
+
+.ms-webpartzone-cell {
+  margin: auto auto 5px;
+}
+
+
+/* Page Template Styles */
+
+.col-two-header-title {
+  font-size: 2.2em;
+  color: #003466;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+
+
+/* Display Template */
+
+.row>#viewMore, .cbs-Div>#viewMore, .cbs-List #viewMore {
+  position: absolute;
+  right: 16px;
+}
+
+.row>#viewMore {
+  bottom: -10px;
+}
+
+/* used for boostrap columns odd numbering and with horizontal javascript solution webPartZoneHorizontal */
+
+/* 5 Columns Evenly Spaced */
+
+.col-xs-15, .col-sm-15, .col-md-15, .col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+
+
+/* 7 Columns Evenly Spaced */
+
+.col-xs-21, .col-sm-21, .col-md-21, .col-lg-21 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-21 {
+  width: 14.28571428571429%;
+  float: left;
+}
+
+
+/* 8 Columns Evenly Spaced */
+
+.col-xs-24, .col-sm-24, .col-md-24, .col-lg-24 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-24 {
+  width: 12.5%;
+  float: left;
+}
+
+
+/* 9 Columns Evenly Spaced */
+
+.col-xs-27, .col-sm-27, .col-md-27, .col-lg-27 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-27 {
+  width: 11.11111111111111%;
+  float: left;
+}
+
+/* 10 Columns Evenly Spaced */
+
+.col-xs-30, .col-sm-30, .col-md-30, .col-lg-30 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-30 {
+  width: 10%;
+  float: left;
+}
+
+/* 11 Columns Evenly Spaced */
+
+.col-xs-33, .col-sm-33, .col-md-33, .col-lg-33 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-33 {
+  width: 9.090909090909091%;
+  float: left;
+}
+
+/*  Footer */
+
+footer {
+  background: #7f9ead;
+  border-top: none;
+}

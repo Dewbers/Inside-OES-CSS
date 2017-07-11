@@ -1,0 +1,407 @@
+/* Hides pagination on Employee Services */
+
+@media screen and (min-width: 768px) {
+  .ms-promlink-body {
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ms-promlink-body {
+    max-width: 700px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ms-promlink-body {
+    max-width: 800px;
+  }
+}
+
+
+/* Header */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  header {
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .oes-site-id {
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 0px;
+  }
+  .oes-top-nav {
+    display: none;
+  }
+  #s4-workspace HEADER {
+    padding: 10px 0;
+  }
+}
+
+
+/* mix it up */
+
+@media all and (min-width: 641px) {
+  .mixitupContent .mix {
+    margin-bottom: 2%;
+  }
+  .mixitupContent .mix:before {}
+  .mixitupContent .gap, .mixitupContent .mix {
+    width: 23.5%;
+  }
+}
+
+@media all and (min-width: 769px) {
+  .mixitupContent {
+    padding: 30px 30px 0;
+  }
+  .mixitupContent .mix:before {}
+  .mixitupContent .gap, .mixitupContent .mix {
+    width: 23.5%;
+  }
+}
+
+
+/* Contacts Card */
+
+@media screen and (min-width: 768px) {
+  .contacts-Div.container {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contacts-Div.container {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts-Div.container {
+    width: 600px;
+  }
+}
+
+
+/* Display Template Amber and Blue Alert */
+
+@media screen and (min-width: 768px) {
+  .alert-location {
+    display: block;
+    top: -36px;
+    right: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .alert-location {
+    top: -42px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .alert-location {
+    top: -43px;
+    right: 80px;
+  }
+}
+
+
+/* * Custom Footable without color, font, no border radius */
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'footable';
+    src: url("../fonts/footable.svg#footable") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+
+/* used for boostrap columns odd numbering and with horizontal javascript solution webPartZoneHorizontal */
+
+
+/* 5 Columns Evenly Spaced */
+
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+
+/* 7 Columns Evenly Spaced */
+
+@media (min-width: 768px) {
+  .col-sm-21 {
+    width: 14.28571428571429%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-21 {
+    width: 14.28571428571429%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-21 {
+    width: 14.28571428571429%;
+    float: left;
+  }
+}
+
+
+/* 8 Columns Evenly Spaced */
+
+@media (min-width: 768px) {
+  .col-sm-24 {
+    width: 12.5%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-24 {
+    width: 12.5%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-24 {
+    width: 12.5%;
+    float: left;
+  }
+}
+
+
+/* 9 Columns Evenly Spaced */
+
+@media (min-width: 768px) {
+  .col-sm-27 {
+    width: 11.11111111111111%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-27 {
+    width: 11.11111111111111%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-27 {
+    width: 11.11111111111111%;
+    float: left;
+  }
+}
+
+
+/* 10 Columns Evenly Spaced */
+
+@media (min-width: 768px) {
+  .col-sm-30 {
+    width: 10%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-30 {
+    width: 10%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-30 {
+    width: 10%;
+    float: left;
+  }
+}
+
+
+/* 11 Columns Evenly Spaced */
+
+@media (min-width: 768px) {
+  .col-sm-33 {
+    width: 9.090909090909091%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-33 {
+    width: 9.090909090909091%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-33 {
+    width: 9.090909090909091%;
+    float: left;
+  }
+}
+
+
+/* events */
+
+@media only screen and (min-width: 768px) {
+  .pm-event-date, UL.cbs-List LI .eventHomeContainer .eventHomeDay {
+    font-size: 35px;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .pm-event-date, UL.cbs-List LI .eventHomeContainer .eventHomeDay {
+    font-size: 48px;
+    padding-left: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .pm-event-month, UL.cbs-List LI .eventHomeContainer .eventHomeMonth {
+    font-size: 10px;
+    left: 10px;
+    padding-top: 24px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .pm-event-month, UL.cbs-List LI .eventHomeContainer .eventHomeMonth {
+    font-size: 16px;
+    left: -1px;
+    padding-top: 39px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .pm-event-description, UL.cbs-List LI .eventHomeContainer .eventHomeTitle {
+    float: right;
+    font-size: 10px;
+    height: 32px;
+    padding-top: 4px;
+    width: 52%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .pm-event-description, UL.cbs-List LI .eventHomeContainer .eventHomeTitle {
+    font-size: 16px;
+    height: 48px;
+    padding-top: 8px;
+    width: 57%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .pm-event-description, UL.cbs-List LI .eventHomeContainer .eventHomeTitle {
+    width: 66%;
+    text-align: right;
+  }
+}
+
+
+/* News */
+
+@media screen and (min-width: 1200px) {
+  .news-wrapper {
+    height: 410px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .news-wrapper {
+    height: 390px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .news-wrapper {
+    height: 370px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news-wrapper {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news-left-wrapper {
+    text-align: center;
+  }
+  .news-left-wrapper img {
+    display: inline;
+  }
+}
+
+
+/* ipad */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .blog-container-m {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+
+
+/* iphone */
+
+@media only screen and (min-width: 375px) and (max-width: 768px) {
+  .blog-container-m {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+    width: 100%;
+  }
+  .blog-image-m {
+    width: 100%;
+  }
+  .blog-item-m {
+    position: relative;
+  }
+  .h4m span {
+    position: absolute;
+    background: #fff;
+    font-size: 14px;
+    bottom: 65px;
+    padding: 0 5px;
+    margin-right: 52px;
+  }
+  .root.ms-core-listMenu-root.static {
+    padding: 0px;
+  }
+  #SearchBox DIV[class^="ms-srch-sb"] {
+    border-bottom: 1px solid gray;
+  }
+}
