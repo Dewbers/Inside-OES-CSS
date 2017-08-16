@@ -1,52 +1,36 @@
 /* SharePoint UI overrides */
-
 /* Hide 'quick launch - site contents' from page */
-
 #ctl00_PlaceHolderMain_idNavLinkViewAll {
-  display: none;
-}
+  display: none; }
 
 /* Make Edit Mode Panel full width */
-
 .edit-mode-panel {
-  display: block !important;
-}
-
+  display: block !important; }
 
 /* Horizontal Web Part Adjustment */
-
 .ms-fullWidth.row {
-  width: auto;
-}
+  width: auto; }
 
 .ms-webpart-cell-horizontal {
-  display: block;
-}
+  display: block; }
 
 .pm-edit-mode .ms-webpart-cell-horizontal {
-  display: table-cell;
-}
+  display: table-cell; }
 
 #DeltaBreadcrumbDropdown {
-  display: none;
-}
-
+  display: none; }
 
 /* Page Edit Mode */
-
 TEXTAREA {
   resize: vertical;
-  width: 99%;
-}
-
+  width: 99%; }
 
 /* Item Toggle */
-
 .pm-item-header {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .eventContent p {
   cursor: pointer;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
+
+/*# sourceMappingURL=sharepoint-overrides.css.map */
