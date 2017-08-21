@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Home Page Calendar */
 .eventDesADetail p {
   width: 235px;
@@ -607,10 +608,6 @@ button + label {
 .mixitupContent .gap, .mixitupContent .mix {
   width: 48%; }
 
-/*# sourceMappingURL=components.css.map */
-
-/* SimpleModal */
-
 /*
 * Mootools Simple Modal
 * Version 1.0
@@ -638,7 +635,7 @@ button + label {
 /* Vars */
 /* Overlay style */
 #simple-modal-overlay {
-  position: fixed ;
+  position: fixed;
   display: block;
   z-index: 99998;
   top: 0;
@@ -651,16 +648,14 @@ button + label {
   background: -webkit-gradient(radial, center center, 0, center center, 460, from(#ffffff), to(#291a49));
   background: -webkit-radial-gradient(circle, #ffffff, #291a49);
   background: -moz-radial-gradient(circle, #ffffff, #291a49);
-  background: -ms-radial-gradient(circle, #ffffff, #291a49);
-}
+  background: -ms-radial-gradient(circle, #ffffff, #291a49); }
+
 .simple-modal {
   /* Style rewrite */
-
   width: 600px;
   left: 20px;
   top: 20px;
   /* */
-
   position: absolute;
   position: fixed;
   margin: 0;
@@ -678,21 +673,21 @@ button + label {
   z-index: 99999;
   border-radius: 6px;
   -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-}
+  -moz-border-radius: 6px; }
+
 .simple-modal .simple-modal-header {
   padding: 5px 15px;
   margin: 0;
-  border-bottom: 1px solid #EEEEEE;
-}
+  border-bottom: 1px solid #EEEEEE; }
+
 .simple-modal .simple-modal-header h1 {
   margin: 0;
   color: #404040;
   font-size: 18px;
   font-weight: bold;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 36px;
-}
+  line-height: 36px; }
+
 .simple-modal a.close, .simple-modal a.previous-image, .simple-modal a.next-image {
   position: absolute;
   top: 16px;
@@ -701,38 +696,37 @@ button + label {
   font-size: 17px;
   font-weight: normal;
   line-height: 10px;
-  text-decoration: none;
-}
+  text-decoration: none; }
+
 .simple-modal a.close {
-  right: 15px;
-}
+  right: 15px; }
+
 .simple-modal a.previous-image {
-  right: 80px;
-}
+  right: 80px; }
+
 .simple-modal a.next-image {
-  right: 60px;
-}
+  right: 60px; }
+
 .simple-modal a.close:hover, .simple-modal a.previous-image:hover, .simple-modal a.next-image:hover {
-  color: #444;
-}
+  color: #444; }
+
 .simple-modal .simple-modal-body {
   padding: 15px;
-  /* Extra style */
+  /* Extra style */ }
 
-}
 .simple-modal .simple-modal-body div.contents {
-  overflow: hidden;
-}
+  overflow: hidden; }
+
 .simple-modal .simple-modal-body p {
   font-size: 13px;
   font-weight: normal;
   color: #606060;
-  line-height: 18px;
-}
+  line-height: 18px; }
+
 .simple-modal .simple-modal-body p img {
   display: block;
-  margin: 0 auto 10px auto;
-}
+  margin: 0 auto 10px auto; }
+
 .simple-modal .simple-modal-footer {
   display: block;
   background-color: #F5F5F5;
@@ -746,8 +740,8 @@ button + label {
   box-shadow: inset 0 1px 0 #FFF;
   zoom: 1;
   margin-bottom: 0;
-  text-align: center;
-}
+  text-align: center; }
+
 .simple-modal .simple-modal-footer a.btn {
   text-decoration: none;
   cursor: pointer;
@@ -763,25 +757,25 @@ button + label {
   transition: 0.2s linear all;
   border-radius: 3px;
   -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-}
+  -moz-border-radius: 3px; }
+
 .simple-modal .simple-modal-footer a.btn.primary {
   color: #FFF;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
   background-color: #999;
   background-repeat: repeat-x;
-  margin-right: 15px;
-}
+  margin-right: 15px; }
+
 .simple-modal .simple-modal-footer a.btn.primary:hover {
   border: 1px solid #444;
-  background-color: #444;
-}
+  background-color: #444; }
+
 .simple-modal .simple-modal-footer a.btn.secondary {
-  padding: 5px 2px 6px;
-}
+  padding: 5px 2px 6px; }
+
 .simple-modal .simple-modal-footer a.btn.secondary:hover {
-  color: #999;
-}
+  color: #999; }
+
 /* Draggable style */
 .simple-modal.draggable .simple-modal-header:hover {
   cursor: move;
@@ -791,24 +785,25 @@ button + label {
   -moz-border-radius-topleft: 6px;
   -moz-border-radius-topright: 6px;
   border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-}
+  border-top-right-radius: 6px; }
+
 /* Loading style */
 .simple-modal.loading .simple-modal-body {
   min-height: 60px;
-  background: transparent url("../images/loader.gif") no-repeat center center;
-}
+  background: transparent url("../images/loader.gif") no-repeat center center; }
+
 .simple-modal.loading .simple-modal-body div.contents {
-  display: none;
-}
+  display: none; }
+
 .simple-modal.loading .close, .simple-modal.loading .simple-modal-header, .simple-modal.loading .simple-modal-footer {
-  display: none;
-}
+  display: none; }
+
 /* Hide header */
 .simple-modal.hide-header .simple-modal-header {
-  display: none;
-}
+  display: none; }
+
 /* Hide header */
 .simple-modal.hide-footer .simple-modal-footer {
-  display: none;
-}
+  display: none; }
+
+/*# sourceMappingURL=components.css.map */
